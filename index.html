@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABLA - Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema de Gestão de Estoque da ABLA!</h1>
+    <form id="login-form">
+        <div>
+            <label for="usuario">Usuário:</label>
+            <select id="usuario">
+                <option value="">Escolha seu nome na lista</option>
+            </select>
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" maxlength="4">
+        </div>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <script src="firebaseConfig.js"></script> 
+    <script type="module" src="script.js"></script>
+</body>
+</html>
